@@ -93,7 +93,7 @@
     transform: translateX(-50%);
     border-radius: none;
     border: 1px solid var(--color-border);
-    box-shadow: var(--shadow-2);
+    box-shadow: var(--shadow-1);
 
   @media(--above_med){
     width: 100%;
@@ -137,7 +137,7 @@
     border-radius: clamp(10px,8px + 2vw,30px);
     letter-spacing: 0.025em;
     border: 1px solid var(--color-border);
-    box-shadow: var(--shadow-2);
+    box-shadow: var(--shadow-1);
 
     @media (--above_small) {
       display: grid;
