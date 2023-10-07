@@ -1,0 +1,7 @@
+.wrapper {
+  margin-inline: auto;
+  max-width: var(--wrapper-max-width, calc(70rem - 4 * var(--gutter))); padding-left: var(--gutter);
+  padding-right: var(--gutter);
+  position: relative;
+}
+

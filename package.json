@@ -1,0 +1,39 @@
+{
+	"name": "carmenpraxis",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/kit": "^1.5.0",
+		"autoprefixer": "^10.4.14",
+		"fontaine": "^0.4.0",
+		"postcss": "^8.4.24",
+		"postcss-custom-media": "^10.0.0",
+		"postcss-jit-props": "^1.0.13",
+		"postcss-load-config": "^4.0.1",
+		"prettier": "^3.0.3",
+		"prettier-plugin-svelte": "^3.0.3",
+		"slugify": "^1.6.6",
+		"svelte": "^3.54.0",
+		"svelte-check": "^3.0.1",
+		"tailwindcss": "^3.3.2",
+		"typescript": "^5.0.0",
+		"vite": "^4.3.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@inlang/sdk-js": "^0.6.4",
+		"mailtoui": "^1.0.3",
+		"open-props": "^1.6.5",
+		"postcss-import": "^15.1.0",
+		"postcss-import-ext-glob": "^2.1.1",
+		"postcss-preset-env": "^8.4.2"
+	}
+}

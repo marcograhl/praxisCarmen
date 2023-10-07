@@ -1,0 +1,184 @@
+{
+  "title": "Spacing",
+  "description": "Consistent spacing sizes, based on a ratio, with min and max sizes. This allows you to set spacing based on the context size. For example, min for mobile and max for desktop browsers.",
+  "meta": {
+    "scaleGenerator": "https://utopia.fyi/space/calculator?c=320,16,1.2,1350,20,1.414,8,1,&s=0.75|0.5|0.25,2|3|5|8|13,s-l"
+  },
+  "items": [
+        {
+      "name": "2XS",
+      "min": 8,
+      "max":10
+    },
+
+    {
+      "name": "XS",
+      "min": 12,
+      "max": 15
+    },
+    {
+      "name": "S",
+      "min": 16,
+      "max": 20
+    },
+    {
+      "name": "M",
+      "min": 24,
+      "max": 30
+    },
+    {
+      "name": "L",
+      "min": 32,
+      "max": 40
+    },
+    {
+      "name": "XL",
+      "min": 48,
+      "max": 60
+    },
+    {
+      "name": "2XL",
+      "min": 64,
+      "max": 80
+    },
+    {
+      "name": "3XL",
+      "min": 80,
+      "max": 100
+    },
+    {
+      "name": "4XL",
+      "min": 112,
+      "max": 140
+    },
+    {
+      "name": "5XL",
+      "min": 120,
+      "max": 160
+    },
+    {
+      "name": "l-xl",
+      "min": 32,
+      "max": 60
+    },
+    {
+      "name": "xs-l",
+      "min": 12,
+      "max": 40
+    },
+
+    {
+      "name": "s-l",
+      "min": 12,
+      "max": 40
+    },
+
+    {
+      "name": "m-l",
+      "min": 24,
+      "max": 40
+    },
+    {
+      "name": "l-2xl",
+      "min": 32,
+      "max": 80
+    },
+
+    {
+      "name": "l-3xl",
+      "min": 32,
+      "max": 100
+    },
+    {
+      "name": "s-xl",
+      "min": 16,
+      "max": 60
+    },
+    {
+      "name": "s-m",
+      "min": 16,
+      "max": 24
+    },
+    {
+      "name": "xs-2xl",
+      "min": 12,
+      "max": 80
+    },
+    {
+      "name": "xs-xl",
+      "min": 12,
+      "max": 60
+    },
+    {
+      "name": "s-l",
+      "min": 16,
+      "max": 40
+    },
+        {
+      "name": "m-2xl",
+      "min": 24,
+      "max": 80
+    },
+
+            {
+      "name": "xs-4xl",
+      "min": 12,
+      "max": 140
+    },
+
+            {
+      "name": "xs-3xl",
+      "min": 12,
+      "max": 100
+    },
+
+            {
+      "name": "2xs-xl",
+      "min": 8,
+      "max": 60
+    },
+
+            {
+      "name": "xs-s",
+      "min": 12,
+      "max": 20
+    },
+            {
+      "name": "m-3xl",
+      "min": 24,
+      "max": 100
+    },
+
+      {
+      "name": "m-2xl",
+      "min": 24,
+      "max": 80
+    },
+
+            {
+      "name": "xl-3xl",
+      "min": 48,
+      "max": 100
+    },
+
+      {
+      "name": "xl-5xl",
+      "min": 48,
+      "max": 160
+    },
+
+      {
+      "name": "m-4xl",
+      "min": 24,
+      "max": 140
+    },
+
+      {
+      "name": "m-xl",
+      "min": 24,
+      "max": 60
+    }
+
+  ]
+}
+

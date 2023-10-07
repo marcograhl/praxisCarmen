@@ -1,0 +1,47 @@
+{
+  "title": "Colors",
+  "description": "Hex color codes that can be shared, cross-platform. They can be converted at point of usage, such as HSL for web or CMYK for print.",
+  "items": [
+    {
+      "name": "Dark",
+      "value": "#2B2927"
+    },
+    {
+      "name": "Light",
+      "value": "#FEFEFE"
+    },
+    {
+      "name": "Light Glare",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "Background Surface Light",
+      "value": "#F1C6C7"
+    },
+    {
+      "name": "Background Surface",
+      "value": "#FDEFC6"
+    },
+        {
+      "name": "Background Surface Dark",
+      "value": "#f0d890"
+    },
+        {
+      "name": "Border",
+      "value": "#f1c6c780"
+    },
+    {
+      "name": "Secondary",
+      "value": "#FFEFED"
+    },
+
+    {
+      "name": "Accent",
+      "value": "#f85f72"
+    },
+    {
+      "name": "Primary",
+      "value": "#B41924"
+    }
+  ]
+}

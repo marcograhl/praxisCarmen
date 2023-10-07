@@ -1,0 +1,4 @@
+.region {
+  padding-top: var(--region-space, var(--section-spacing));
+  padding-bottom: var(--region-space, var(--section-spacing));
+}

@@ -1,0 +1,72 @@
+
+@layer base{
+
+
+
+  body{
+    font-size: var(--size-step-0);
+    color: var(--color-dark);
+    line-height: calc(1em + 0.5rem);
+    /* fit noise image to element */
+    padding-inline: var(--page-padding-inline);
+    overflow-x: hidden;
+    background-color: var(--color-light-glare);
+
+
+  }
+
+
+  :where(a) {
+      text-decoration: underline;
+      text-decoration-thickness: var(--border-width);
+      text-decoration-color: inherit;
+      text-underline-offset: calc(var(--border-width) * 2);
+      color: inherit;
+
+  }
+
+    *,
+  *::before,
+  *::after {
+    font-feature-settings: "kern";
+    font-kerning: normal;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+  }
+
+h1 {
+  --font-size: var(--size-step-5);
+  font-size: var(--font-size);
+}
+
+h2 {
+  font-size: var(--size-step-4);
+}
+
+h3 {
+  font-size: var(--size-step-3);
+}
+
+ :is(h1,h2,h3,h4){
+   font-family: var(--font-base);
+ } 
+
+.visually-hidden, .skip-link:not(:focus) {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+.flex-1{
+  flex: 1;
+
+}
+
+}
