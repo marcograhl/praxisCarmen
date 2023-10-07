@@ -201,7 +201,7 @@
 
   .hero .sidebar{
     --sidebar-vertical-alignment: flex-start;
-    --sidebar-target-width: 28.75rem;
+    --sidebar-target-width: 29.5rem;
     --sidebar-content-min-width: 35%;
     --gutter: var(--space-2xs-xl);
   }
