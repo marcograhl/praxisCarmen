@@ -1,6 +1,45 @@
 {
 	"intro": {
 		"info": "Hi, mein Name ist <span class='indent'> Carmen Alvarez und ich </span> bin Diplom-Psychologin.",
-		"next": "In nächster Zeit finden Sie hier mehr Informationen über mich und meine Arbeit. Schauen Sie gerne bald wieder vorbei!"
+		"next": "Willkommen auf meiner meiner Internetpräsenz. Auf dieser Webseite finden Sie mehr Informationen über mich und meine Arbeit."
+	},
+	"beratungsangebot": {
+		"title": "Beratungsangebot",
+		"liste": {
+			"0": "Einzel- und Paartherapie",
+			"1": "Familientherapie",
+			"2": "Psychologische Therapie und Coaching"
+		},
+		"behandlungsangebot": "<strong>Behandlungsangebot: <br/></strong>Depression, Burnout, Angststörung, Selbstwertprobleme, Persönlichkeitsstörung, Lebenskrise, Psychosomatische Beschwerden, Interkulturelle Therapie (duelo Migratorio)."
+	},
+	"meinAnsatz":{
+		"title": "Mein Ansatz"
+
+	},
+	"navigation": {
+		"0": {
+			"text": "Startseite",
+			"url": "/"
+		},
+		"1": {
+			"text": "Beratungsangebot",
+			"url": "/Beratungsangebot/"
+		},
+		"2": {
+			"text": "Mein Ansatz",
+			"url": "/Mein-Ansatz/"
+		},
+		"3": {
+			"text": "Ablauf & Kosten",
+			"url": "/Ablauf&Kosten/"
+		},
+		"4": {
+			"text": "Kontakt",
+			"url": "/Kontakt/"
+		},
+		"5": {
+			"text": "Impressum & Datenschutz",
+			"url": "/Impressum&Datenschutz/"
+		}
 	}
 }

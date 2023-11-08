@@ -23,9 +23,10 @@ module.exports = {
   presets: [],
   theme: {
     screens: {
-      sm: '30em',
+      sm: '40em',
       md: '60em',
-      lg: '80em'
+      lg: '70em',
+      xl: '80em'
     },
     borderRadius: {
       'none': '0',
@@ -43,6 +44,7 @@ module.exports = {
     backgroundColor: ({theme}) => theme('colors'),
     textColor: ({theme}) => theme('colors'),
     margin: ({theme}) => ({
+      zero: '0',
       auto: 'auto',
       ...theme('spacing')
     }),

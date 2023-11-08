@@ -5,12 +5,12 @@
     {
       "name": "Base",
       "description": "System fonts for body copy and globally set text.",
-      "value": ["Archivo","Inter", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
+      "value": ["DM Sans","Inter", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"]
     },
     {
       "name": "Serif",
       "description": "Expressive sections, like quotes",
-      "value": ["Spectral","Georgia", "sans-serif"]
+      "value": ["DM Serif Display","Georgia", "sans-serif"]
     }
   ]
 }

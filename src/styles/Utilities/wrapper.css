@@ -1,7 +1,7 @@
 .wrapper {
+  max-width: calc(var(--content-max-width) + 2 * var(--space-m));
   margin-inline: auto;
-  max-width: var(--wrapper-max-width, calc(70rem - 4 * var(--gutter))); padding-left: var(--gutter);
-  padding-right: var(--gutter);
+  padding-inline:  var(--space-m);
   position: relative;
 }
 

@@ -1,8 +1,7 @@
 :root {
-  --gutter: var(--space-m-4xl);
-  --flow-space: clamp(1.25ex, 2.5vmax, 1.75ex);
+  --gutter: var(--space-xs-s);
   --border-radius: clamp(12px,10px + 2vw, 24px );
-  --border-width: 0.15ex;
+  --border-width: 0.125ex;
   --transition-base: 250ms ease;
   --transition-movement: 200ms linear;
   --transition-fade: 200ms ease;
@@ -12,9 +11,7 @@
   --font-size: 100%;
   --stack: clamp(1.25ex, 2.5vmax, 1.75ex);
   --line-length: 70ch;
-  --section-spacing: var(--space-xl-5xl);
-  --page-padding-inline: calc(
-    (100vw - min(78.4375rem, 100vw - var(--gutter))) / 2
-  );
+  --section-spacing: var(--space-l-2xl);
+  --content-max-width: 77.5rem;
   font-size: 1rem;
 }

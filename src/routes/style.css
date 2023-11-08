@@ -3,5 +3,18 @@
 @import-glob '../styles/Block/*.css';
 @import-glob '../styles/Base/*.css';
 @import-glob '../styles/Utilities/*.css';
+@import-glob '../styles/Composition/*.css';
 /* @import-glob '../styles/debug.css'; */
 @import "open-props/postcss/shadows.min.css";
+
+
+
+  /*  @media(--above_large){ */
+  /*   &:after{ */
+  /*     content: url("$assets/footer-right.png"); */
+  /*     position: fixed; */
+  /*     bottom: -5.5rem; */
+  /*     right:-3.5rem; */
+  /*     z-index: 2; */
+  /* } */
+  /* } */

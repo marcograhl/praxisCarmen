@@ -9,15 +9,15 @@ const config = {
 		preprocess({
 			postcss: {
 				prependData: `
-				@custom-media --below_small (width < 500px);
-				@custom-media --below_med (width < 700px);
-				@custom-media --below_large (width < 900px);
-				@custom-media --below_xlarge (width < 1110px);
+				@custom-media --below_small (width < 40em);
+				@custom-media --below_med (width < 60em);
+				@custom-media --below_large (width < 70em);
+				@custom-media --below_xlarge (width < 80em);
 
-				@custom-media --above_small (width > 500px);
-				@custom-media --above_med (width > 700px);
-				@custom-media --above_large (width > 900px);
-				@custom-media --above_xlarge (width > 1110px);
+				@custom-media --above_small (width > 40em);
+				@custom-media --above_med (width > 60em);
+				@custom-media --above_large (width > 70em);
+				@custom-media --above_xlarge (width > 80em);
 			`,
 				plugins: [
 					atImport,
@@ -39,6 +39,8 @@ const config = {
 		alias: {
 			$assets: 'src/assets',
 			$utilities: 'src/utilities',
+			$partials: 'src/_includes/partials',
+			$blocks: 'src/_includes/blocks',
 		}
 	}
 };

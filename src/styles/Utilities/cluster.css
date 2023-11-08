@@ -2,6 +2,7 @@
     align-items: var(--cluster-vertical-alignment,center);
     display: flex;
     flex-wrap: wrap;
-    gap: var(--gutter,var(--space-s-m));
+    row-gap: var(--gutter, var(--space-xs));
+    column-gap: var(--gutter,var(--space-s-l));
     justify-content: var(--cluster-horizontal-alignment,flex-start);
 }

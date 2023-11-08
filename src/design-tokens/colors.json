@@ -4,7 +4,7 @@
   "items": [
     {
       "name": "Dark",
-      "value": "#2B2927"
+      "value": "#151E1A"
     },
     {
       "name": "Light",
@@ -15,33 +15,48 @@
       "value": "#FFFFFF"
     },
     {
-      "name": "Background Surface Light",
-      "value": "#F1C6C7"
+      "name": "Nebula-50",
+      "value": "#F5F8F6"
     },
     {
-      "name": "Background Surface",
-      "value": "#FDEFC6"
-    },
-        {
-      "name": "Background Surface Dark",
-      "value": "#f0d890"
-    },
-        {
-      "name": "Border",
-      "value": "#f1c6c780"
+      "name": "Nebula-100",
+      "value": "#e9efec"
     },
     {
-      "name": "Secondary",
-      "value": "#FFEFED"
-    },
-
-    {
-      "name": "Accent",
-      "value": "#f85f72"
+      "name": "Nebula-200",
+      "value": "#d6e1db"
     },
     {
-      "name": "Primary",
-      "value": "#B41924"
+      "name": "Nebula-300",
+      "value": "#b0c5ba"
+    },
+    {
+      "name": "Nebula-400",
+      "value": "#85a393"
+    },
+    {
+      "name": "Nebula-500",
+      "value": "#648372"
+    },
+    {
+      "name": "Nebula-600",
+      "value": "#4f6a5c"
+    },
+    {
+      "name": "Nebula-700",
+      "value": "#40554a"
+    },
+    {
+      "name": "Nebula-800",
+      "value": "#36453e"
+    },
+    {
+      "name": "Nebula-900",
+      "value": "#2d3a33"
+    },
+    {
+      "name": "Nebula-950",
+      "value": "#151e1a"
     }
   ]
 }

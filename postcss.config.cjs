@@ -1,13 +1,22 @@
 const postcssPresetEnv = require('postcss-preset-env');
 const atImport = require('postcss-import');
 const postcssJitProps = require('postcss-jit-props');
+const postcssCustomMedia = require('postcss-custom-media')
+const postcssGlobalData = require('@csstools/postcss-global-data')
 const OpenProps = require('open-props');
+
 
 
 const config = {
 	plugins: [
 		require('postcss-import-ext-glob'),
 		atImport(),
+    postcssGlobalData({
+      files: [
+				'./src/design-tokens/media.css'
+      ]
+    }),
+    postcssCustomMedia(),
 		require('tailwindcss'),
 		postcssJitProps(OpenProps),
 		postcssPresetEnv({
@@ -19,7 +28,7 @@ const config = {
 				'cascade-layers': false
 			}
 		})
-	]
+	],
 };
 
 module.exports = config;
