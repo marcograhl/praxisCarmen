@@ -1,4 +1,3 @@
-import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
 import postcssPresetEnv from 'postcss-preset-env';
 import atImport from 'postcss-import';
