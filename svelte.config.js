@@ -41,6 +41,7 @@ const config = {
 			$utilities: 'src/utilities',
 			$partials: 'src/_includes/partials',
 			$blocks: 'src/_includes/blocks',
+			$fonts: 'src/fonts'
 		}
 	}
 };

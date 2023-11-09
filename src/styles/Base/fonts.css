@@ -3,7 +3,7 @@
   font-family: 'DM Serif Display';
   font-style: normal;
   font-weight: 650;
-  src: url('src/fonts/DM-Serif_Display.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('$fonts/DM-Serif_Display.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 @font-face {
@@ -11,14 +11,14 @@
   font-family: 'DM Serif Text';
   font-style: italic;
   font-weight: 400;
-  src: url('src/fonts/DM-Serif_Text.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('$fonts/DM-Serif_Text.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'DM Sans';
   font-style: normal;
   font-weight: 400 600;
-  src: url('src/fonts/DM-Sans_regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('$fonts/DM-Sans_regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 @font-face {
@@ -26,5 +26,5 @@
   font-family: 'DM Sans';
   font-style: italic;
   font-weight: 600;
-  src: url('src/fonts/DM-Sans_nitalic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('$fonts/DM-Sans_nitalic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }

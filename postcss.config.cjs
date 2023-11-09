@@ -17,17 +17,17 @@ const config = {
       ]
     }),
     postcssCustomMedia(),
-		require('tailwindcss'),
-		postcssJitProps(OpenProps),
-		postcssPresetEnv({
-			stage: 3,
-			features: {
-				'nesting-rules': true,
-				'custom-media-queries': true,
-				'media-query-ranges': true,
-				'cascade-layers': false
-			}
-		})
+	require('tailwindcss'),
+	postcssJitProps(OpenProps),
+	postcssPresetEnv({
+		stage: 3,
+		features: {
+			'nesting-rules': true,
+			'custom-media-queries': true,
+			'media-query-ranges': true,
+			'cascade-layers': false
+		}
+	})
 	],
 };
 

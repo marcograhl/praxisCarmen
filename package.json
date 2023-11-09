@@ -19,6 +19,7 @@
 		"postcss-custom-media": "^10.0.0",
 		"postcss-jit-props": "^1.0.13",
 		"postcss-load-config": "^4.0.1",
+		"postcss-nesting": "^12.0.1",
 		"prettier": "^3.0.3",
 		"prettier-plugin-svelte": "^3.0.3",
 		"slugify": "^1.6.6",
@@ -31,6 +32,7 @@
 	"type": "module",
 	"dependencies": {
 		"@inlang/sdk-js": "^0.6.4",
+		"@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
 		"mailtoui": "^1.0.3",
 		"open-props": "^1.6.5",
 		"postcss-import": "^15.1.0",

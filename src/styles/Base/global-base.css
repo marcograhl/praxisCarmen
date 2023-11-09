@@ -5,10 +5,10 @@ html[lang="de"]{
     hyphens: auto;
     }
 }
+
 p{
   line-height: 1.4;
   max-width: 52ch;
-
 }
 
 
@@ -26,7 +26,6 @@ p{
       text-decoration-color: inherit;
       text-underline-offset: calc(var(--border-width) * 2);
       color: inherit;
-
   }
 
     *,
@@ -63,9 +62,9 @@ h3 {
   font-size: var(--size-step-2);
 }
 
- :is(h1,h2,h3,h4){
-   font-family: var(--font-serif);
- } 
+:is(h1,h2,h3,h4){
+ font-family: var(--font-serif);
+} 
 
 strong{
     font-weight: 600;
