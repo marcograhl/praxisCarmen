@@ -2,9 +2,15 @@ import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
 import postcssPresetEnv from 'postcss-preset-env';
 import atImport from 'postcss-import';
+import adapter from '@sveltejs/adapter-vercel';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+		kit: {
+		adapter: adapter({
+			// see the 'Deployment configuration' section below
+		})
+	},
 	preprocess: [
 		preprocess({
 			postcss: {
