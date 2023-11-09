@@ -11,6 +11,11 @@
       "name": "Serif",
       "description": "Expressive sections, like quotes",
       "value": ["DM Serif Display","Georgia", "sans-serif"]
+    },
+    {
+      "name": "Serif Text",
+      "description": "Expressive sections, like quotes",
+      "value": ["DM Serif Text","Georgia", "sans-serif"]
     }
   ]
 }

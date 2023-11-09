@@ -24,7 +24,7 @@ import SiteHeader from '../_includes/partials/Site-header.svelte';
 
 
 <style lang="postcss" >
-  :global(.indent){
+  :global(.indent-line){
     @media(--above_large){
     text-indent: 1.5ch;
   }

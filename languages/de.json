@@ -1,8 +1,15 @@
 {
-	"intro": {
-		"info": "Hi, mein Name ist <span class='indent'> Carmen Alvarez und ich </span> bin Diplom-Psychologin.",
-		"next": "Willkommen auf meiner meiner Internetpräsenz. Auf dieser Webseite finden Sie mehr Informationen über mich und meine Arbeit."
-	},
+	"Startseite": {
+		"heading": "Hi, mein Name ist <span class='indent-line'> Carmen Alvarez und ich </span> bin Diplom-Psychologin.",
+		"subheading": "Willkommen auf meiner meiner Internetpräsenz. Auf dieser Webseite finden Sie mehr Informationen über mich und meine Arbeit.",
+		"card": {
+			"0": "Öffnungszeiten:",
+			"1": "<strong>Mo,&thinsp;Mi:&ensp; 9:00&thinsp;&ndash;&thinsp;18:00 Uhr</strong>",
+			"2": "Praxis:",
+			"3": "Öffnungszeiten:"
+		},
+		"quote": "Wenn wir eine Verbindung mit den Gründen für unsere Ängste & Symptomen herstellen, öffnen wir uns einer möglichen Lösung"
+   },
 	"beratungsangebot": {
 		"title": "Beratungsangebot",
 		"liste": {
@@ -12,9 +19,33 @@
 		},
 		"behandlungsangebot": "<strong>Behandlungsangebot: <br/></strong>Depression, Burnout, Angststörung, Selbstwertprobleme, Persönlichkeitsstörung, Lebenskrise, Psychosomatische Beschwerden, Interkulturelle Therapie (duelo Migratorio)."
 	},
-	"meinAnsatz":{
-		"title": "Mein Ansatz"
-
+	"meinAnsatz": {
+		"title": "Mein Ansatz",
+		"p_1": "Ich begleite Menschen in einer Phase ihres Lebens, in der sie sich entscheiden, etwas in ihrem Leben verändern zu wollen und psychologische Unterstützung suchen.",
+		"p_2": "<strong>Psychologische Beratung kann helfen</strong>, wenn man mit der aktuellen Situation unzufrieden ist, sich belastet fühlt oder nicht weiß, wie es weiter gehen soll.",
+		"p_3": "<strong>Die Beratung bietet Entlastung und Unterstützung</strong> in Krisensituationen und in Belastungssituationen: Privater, familiärer oder beruflicher Art.",
+		"img_alt": "carmen mit notizblock, sitzend",
+		"p_4": "<strong>Therapie ist eine Möglichkeit,</strong> schwierige Lebensphasen und Situationen mithilfe von fachkundiger Unterstützung zu bewältigen. Ich arbeite mit einem breiten Fach- und Erfahrungswissen.",
+		"p_5": "Mein Beratungskonzept ist von einem humanistischen Menschenbild geprägt. In meiner Arbeit integriere ich systemische Ansätze, zusätzlich arbeite ich mit emotionsfokussierten und achtsamkeitsbasierten Verfahren sowie schema therapeutischen Methoden.",
+		"p_6": "Durch das therapeutische Gespräch werden Dialoge über Probleme, Erzählungen eröffnet und neue Ideen ins Spiel gebracht. Die Zusammenarbeit und <strong>die Behandlung ist Ressourcen-, Ziel- und Lösungsorientiert.</strong> ",
+		"p_7": "Gemeinsam werden wir die persönlichen Ressourcen ausfindig machen und lernen sie zu nutzen. Erfahre hier mehr über <a href='/Beratungsangebot'>mein Beratungsangebot.</a> "
+	},
+	"Ablauf": {
+		"title": "Ablauf & Kosten",
+		"p_1": "Der erste Termin ist kostenlos (30 Minuten), wir können uns kennenlernen, ich bekomme einen ersten Eindruck über ihre Problematik und Symptome und wir klären den Behandlungsbedarf ab.",
+		"q_1": "Die „Chemie“ zwischen uns ist entscheidend für den Behandlungserfolg.",
+		"h2_1": "Therapie",
+		"p_2": "Die Sitzungsdauer und -frequenz richten sich nach Ihrem Anliegen und Ihren Bedürfnissen. Es können einige wenige Sitzungen bis hin zu einer längerfristigen Begleitung eines Veränderungsprozesses sein.",
+		"h2_2": "Kosten",
+		"p_3": "Nur Selbstzahlende oder Privatversicherte."
+	},
+	"Kontakt": {
+		"title": "Kontakt",
+		"p_1": "Sie können mich gerne per E-Mail unter  <a class='text-step-1' href='mailto:alvarez.carmenglo@gmail.com'>alvarez.carmenglo@gmail.com</a> kontaktieren. Ich freue mich darauf, von Ihnen zu hören und Ihnen bei Ihren Anliegen behilflich zu sein.",
+		"h2_1": "Praxisort",
+		"p_2": "Die psychologische Therapie und Beratung findet in der Neurologischen Privatpraxis von Dr.&thinsp;med.&thinsp;Univ.&thinsp;Afshin Jawari statt.",
+		"p_3": "<strong>Öffnungszeiten:</strong><br/>Mo,&thinsp;Mi:&ensp; 9:00&thinsp;&ndash;&thinsp;18:00 Uhr",
+		"p_4": "<strong>Carmen Alvarez</strong><br/>Psychologische Privatpraxis im Bayerischen Viertel</br>Bozener Str. 17, 10825 Berlin</br><strong><a target='_blank' rel='noreferrer' href='https://www.google.com/maps/place/Psychologische+Privatpraxis+im+Bayerischen+Viertel+Carmen+Alvarez/@52.4869995,13.3383774,15z/data=!4m6!3m5!1s0x47a851faa4a2d3a3:0xba7343ea7b73ad4d!8m2!3d52.4869995!4d13.3383774!16s%2Fg%2F11sjgtq6tx?entry=ttu'>Google Maps</a></strong>"
 	},
 	"navigation": {
 		"0": {
@@ -31,7 +62,7 @@
 		},
 		"3": {
 			"text": "Ablauf & Kosten",
-			"url": "/Ablauf&Kosten/"
+			"url": "/Ablauf-&-Kosten/"
 		},
 		"4": {
 			"text": "Kontakt",

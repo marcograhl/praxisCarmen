@@ -11,8 +11,8 @@
 <HeroWrapper>
     <div class="sidebar">
       <div class="hero-text flow">
-        <h2 class="hero-text_title">{@html i('intro.info')} </h2>
-        <p class="hero-text_subtitle text-step-2">{i('intro.next')}</p>
+        <h2 class="hero-text_title text-step-4">{@html i('Startseite.heading')} </h2>
+        <p class="hero-text_subtitle text-step-2">{i('Startseite.subheading')}</p>
       </div>
       <div class="hero-img">
         <img class="portrait mx-auto" src={imgHero} alt="testing" width="322" height="400">
@@ -21,21 +21,21 @@
 </HeroWrapper>
 
 <article class="praxis region bg-light-glare px-m">
-  <address class="card font-base not-italic mx-auto bg-light-glare">
+  <address class="card offset font-base not-italic mx-auto bg-light-glare">
     <div class="card-row bg-nebula-100">
       <img class="self-center card-plant" src={imgCardPlant} alt="deco" width="53" height="104">
       <p class="inline-block self-center">
-        <span class="block card-row_title">Öffnungszeiten:</span>
-        <span class="text-step-1"><strong>Mo,&thinsp;Mi:&ensp; 9:00&thinsp;&ndash;&thinsp;18:00 Uhr</strong></span>
+        <span class="block card-row_title">{@html i('Startseite.card.0')}</span>
+        <span class="text-step-1">{@html i('Startseite.card.1')}</span>
       </p>
     </div>
     <div class="card-row">
-      <span class="card-row_title">Praxis:</span>
-      <a class="text-step-1" href="mailto:alvarez.carmenglo@gmail.com">Bozener Str. 17, 10825 Berlin↗</a>
+      <span class="card-row_title">{i('Startseite.card.2')}</span>
+      <a class="text-step-1" target='_blank' rel='noreferrer' href='https://www.google.com/maps/place/Psychologische+Privatpraxis+im+Bayerischen+Viertel+Carmen+Alvarez/@52.4869995,13.3383774,15z/data=!4m6!3m5!1s0x47a851faa4a2d3a3:0xba7343ea7b73ad4d!8m2!3d52.4869995!4d13.3383774!16s%2Fg%2F11sjgtq6tx?entry=ttu' >Bozener Str. 17, 10825 Berlin</a>
     </div>
     <div class="card-row">
       <span class="card-row_title">e&#8211;mail:</span>
-      <a class="text-step-1" href="mailto:alvarez.carmenglo@gmail.com">alvarez.carmenglo@gmail.com↗</a>
+      <a class="text-step-1" href="mailto:alvarez.carmenglo@gmail.com">alvarez.carmenglo@gmail.com</a>
     </div>
   </address>
   <div class="quote-wrapper pt-l-2xl">
@@ -44,9 +44,8 @@
         <svg class="quote sm:mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 45 31">
           <path fill="var(--color-primary)" d="M34.631 30.5c-3.133 0-5.533-1.033-7.2-3.1-1.666-2.067-2.5-4.667-2.5-7.8 0-3.533.7-6.567 2.1-9.1 1.4-2.6 3.134-4.733 5.2-6.4 2.067-1.733 4-3.033 5.8-3.9l1.5 2c-1.666.733-3.266 1.733-4.8 3-1.533 1.267-2.8 2.633-3.8 4.1-.933 1.467-1.4 2.833-1.4 4.1 0 .467.1.8.3 1 .267.2.534.3.8.3.4 0 1-.233 1.8-.7.8-.533 2-.8 3.6-.8 2.334 0 4.267.733 5.8 2.2 1.6 1.4 2.4 3.433 2.4 6.1 0 2.467-.833 4.6-2.5 6.4-1.6 1.733-3.966 2.6-7.1 2.6Zm-24.1 0c-3.133 0-5.533-1.033-7.2-3.1-1.666-2.067-2.5-4.667-2.5-7.8 0-3.533.7-6.567 2.1-9.1 1.4-2.6 3.134-4.733 5.2-6.4 2.067-1.733 4-3.033 5.8-3.9l1.5 2c-1.666.733-3.266 1.733-4.8 3-1.533 1.267-2.8 2.633-3.8 4.1-.933 1.467-1.4 2.833-1.4 4.1 0 .467.1.8.3 1 .267.2.534.3.8.3.4 0 1-.233 1.8-.7.8-.533 2-.8 3.6-.8 2.334 0 4.267.733 5.8 2.2 1.6 1.4 2.4 3.433 2.4 6.1 0 2.467-.833 4.6-2.5 6.4-1.6 1.733-3.966 2.6-7.1 2.6Z"/>
         </svg>
-        <p class="mt-s-l text-step-3  sm:text-center sm:mx-auto">
-        Wenn wir eine Verbindung mit den Gründen für unsere Ängste &
-        Symptomen herstellen, öffnen wir uns einer möglichen Lösung
+        <p class="font-serif-text mt-s-m text-step-2  sm:text-center sm:mx-auto">
+          {i('Startseite.quote')}
         </p>
       </blockquote>
     </figure>
@@ -56,7 +55,6 @@
 
 <style lang="postcss">
   .hero-text{
-    --flow-space: 2.35ex;
     display: grid;
     align-content: center;
     justify-content: center;
@@ -83,11 +81,6 @@
    font-style: italic;
   }
 
-:global(html[lang="de"]){
-    @media(--below_small){
-    hyphens: auto;
-    }
-}
   .quote-wrapper{
     overflow: hidden;
     border-top: 1px solid var(--color-border);
@@ -138,9 +131,6 @@
     padding-block: var(--space-s-m);
   }
 
-  .quote{
-   width: 3ex;
-  }
 
   .card-plant{
     position: relative;
@@ -152,9 +142,13 @@
     }
 
   }
+
+  .quote{
+   width: 2.75ex;
+  }
   
   blockquote p{
-    max-width: 35ch;
+    max-width: 40ch;
   }
 
 
