@@ -1,9 +1,7 @@
 <script lang="ts">
 import './style.css';
-import imgHero from '$assets/carmenworking.png';
-import {i,languages,switchLanguage} from '@inlang/sdk-js';
-import SiteFooter from '../_includes/partials/Site-footer.svelte';
-import SiteHeader from '../_includes/partials/Site-header.svelte';
+import SiteFooter from '$partials/Site-footer.svelte';
+import SiteHeader from '$partials/Site-header.svelte';
 
 
 </script>
@@ -14,7 +12,6 @@ import SiteHeader from '../_includes/partials/Site-header.svelte';
       <main class="mt-m-xl" tabindex="-1" id="main-content">
     <slot />
   </main>
-
   <SiteFooter/>
   
 
@@ -24,11 +21,6 @@ import SiteHeader from '../_includes/partials/Site-header.svelte';
 
 
 <style lang="postcss" >
-  :global(.indent-line){
-    @media(--above_large){
-    text-indent: 1.5ch;
-  }
-  }
 
 
 
