@@ -9,7 +9,7 @@ import SiteHeader from '$partials/Site-header.svelte';
 
   <a class="skip-link button" href="#main-content">Skip to content</a>
    <SiteHeader/>
-      <main class="mt-m-xl" tabindex="-1" id="main-content">
+      <main class="mt-m-l" tabindex="-1" id="main-content">
     <slot />
   </main>
   <SiteFooter/>

@@ -50,7 +50,7 @@
 	"navigation": {
 		"0": {
 			"text": "Startseite",
-			"url": "/"
+			"url": "/#"
 		},
 		"1": {
 			"text": "Beratungsangebot",
