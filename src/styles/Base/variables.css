@@ -1,7 +1,7 @@
 :root {
   --gutter: var(--space-xs-s);
   --border-radius: clamp(12px,10px + 2vw, 24px );
-  --border-width: 0.15ex;
+  --border-width: 0.125ex;
   --transition-base: 250ms ease;
   --transition-movement: 200ms linear;
   --transition-fade: 200ms ease;
